@@ -3,7 +3,7 @@ from flask import Flask, render_template, request
 import openai
 import os
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder="templates")
 
 openai.api_key = "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"
 
