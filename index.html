@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Chatbot</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; padding: 50px; }
+        input, button { padding: 10px; margin: 5px; }
+    </style>
+    <link rel="stylesheet" href="{{ url_for('static', filename='static/styles.css') }}">
+    <script src="{{ url_for('static', filename='static/js/script.js') }}"></script>
+</head>
+<body>
+    <h1>Ask the AI Chatbot</h1>
+    <form method="POST">
+        <input type="text" name="question" placeholder="Type your question..." required>
+        <button type="submit">Ask</button>
+    </form>
+
+    <form method="POST">
+        <button name="clear" type="submit">Clear Output</button>  <!-- Button to clear output -->
+    </form>
+
+    <h3>{{ response }}</h3>  <!-- Display the AI response -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bokor&family=DM+Serif+Text:ital@0;1&family=Fascinate+Inline&family=Oswald:wght@200..700&family=Shippori+Mincho+B1&family=Sixtyfour+Convergence&display=swap" rel="stylesheet">
+
+    <div id = "ob">
+        <div class = "row" id = "maths" onmouseover = "show(0)" onmouseleave = "hide()"></div>
+        <div class = "row" id = "english" onmouseover = "show(1)" onmouseleave = "hide()"></div>
+        <div class = "row" id = "sciences" onmouseover = "show(2)" onmouseleave = "hide()"></div>
+        <div class = "row" id = "geography" onmouseover = "show(3)" onmouseleave = "hide()"></div>
+        <div class = "row" id = "history" onmouseover = "show(4)" onmouseleave = "hide()"></div>
+        <div class = "row" id = "languages" onmouseover = "show(5)" onmouseleave = "hide()"></div>
+        <div class = "row" id = "pe" onmouseover = "show(6)" onmouseleave = "hide()"></div>
+        <div class = "row" id = "technology" onmouseover = "show(7)" onmouseleave = "hide()"></div>
+        <div id = "display">
+          <div id = "nm">Name:<span id = "name"></span></div>
+        </div>
+        <div id = "text">
+            <p id = "text1"></p>
+          </div>
+      </div>
+</body>
+</html>
+
+
+

@@ -1,0 +1,137 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: url("https://easy-peasy.ai/cdn-cgi/image/quality=80,format=auto,width=700/https://media.easy-peasy.ai/5bd3f8a0-9ba3-4688-bf1e-37ff276dca45/e6948af1-13e2-4b15-ad03-01d22dd29788.png");
+    background-size: cover;
+}
+
+h1 {
+    color: white;
+}
+
+h3{
+    color: white;
+    margin: 20px;
+    background-color: grey;
+}
+
+p {
+    color: white;
+}
+
+button{
+    border-radius: 10%;
+}
+
+#pg{
+    color: white;
+}
+
+
+  .row{
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+    transition: width 2s, height 2s;
+  }
+  .row:hover{
+    width: 200px;
+    height: 200px;
+  }
+  #maths{
+    background: url("https://previews.123rf.com/images/melpomen/melpomen2209/melpomen220901109/191776617-math-theme-with-school-supplies-flat-lay.jpg");
+    background-size:cover;
+    border-radius: 50%;
+    border: 2px solid grey;
+  }
+  #display{
+    background: black;
+    width: 150px;
+    height:37px;
+    border: 2px double lightgrey;
+    border-radius: 10px;
+    padding: 5px;
+    margin:10px;
+    visibility: hidden;
+    position: fixed;
+    top: 600px;
+    left: 45%;
+  }
+  #display div{
+    border-bottom: 1px solid lightgrey;
+  }
+  #display div:last-child{
+    border-bottom: none;
+  }
+  span{
+    color:cyan;
+    padding-left: 10px;
+  }
+  #text1{
+    background-color: black;
+    font-family: "Shippori Mincho B1", serif;
+    width: 300px;
+    height: 250px;
+    border: 2px solid white;
+    font-size: 14px;
+    visibility: hidden;
+    padding: 5px;
+    position: fixed;
+    top: 300px;
+    left: 39%;
+    border-radius: 10px;
+    font-family: "Oswald", serif;
+  }
+
+#nm{
+  color: white;
+}
+
+  #english{
+    background: url("https://st2.depositphotos.com/3591429/8326/i/450/depositphotos_83269116-stock-photo-graphic-template-with-english.jpg");
+    background-size:cover;
+    border-radius: 50%;
+    border: 2px solid grey;
+  }
+  #sciences{
+    background: url("https://img.freepik.com/free-vector/hand-drawn-colorful-science-education-background_23-2148489232.jpg");
+    background-size:cover;
+    border-radius: 50%;
+    border: 2px solid grey;
+  }
+  #geography{
+    background: url("https://c8.alamy.com/comp/2H6DTN4/geography-and-geology-education-subject-handwriting-doodle-icon-of-earth-exploration-and-map-design-sign-and-symbol-in-isolated-background-2H6DTN4.jpg");
+    background-size:cover;
+    border-radius: 50%;
+    border: 2px solid grey;
+  }
+  #history{
+    background: url("https://thumbs.dreamstime.com/b/hand-drawn-doodles-history-lessons-vector-back-to-school-illustration-white-background-98824242.jpg");
+    background-size:cover;
+    border-radius: 50%;
+    border: 2px solid grey;
+  }
+  #languages{
+    background: url("https://img.freepik.com/premium-vector/colorful-language-concept-with-hand-drawn-style_23-2147866055.jpg");
+    background-size:cover;
+    border-radius: 50%;
+    border: 2px solid grey;
+  }
+  #pe{
+    background: url("https://images.vexels.com/media/users/3/169946/raw/de5913d560bd5e164e69a1e9c3793f09-physical-education-subject-illustration.jpg");
+    background-size:cover;
+    border-radius: 50%;
+    border: 2px solid grey;
+  }
+  #technology{
+    background: url("https://www.shutterstock.com/image-vector/vector-creative-illustration-technology-word-260nw-446972785.jpg");
+    background-size:cover;
+    border-radius: 50%;
+    border: 2px solid grey;
+  }
+
+
+
+  /*Make AI Output answer more aesthetic*/
+  /*Change subject image thumbnail portrayal*/
